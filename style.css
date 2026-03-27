@@ -1,0 +1,20 @@
+/* This changes the whole page background and font */
+body {
+    background-color: #e0e7ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* This styles your main heading */
+h1 {
+    color: #2b5a91;
+    font-size: 3rem;
+}
+
+/* This styles your paragraphs */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
