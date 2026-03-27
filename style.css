@@ -71,3 +71,38 @@ p {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Make the navigation links change color and add an underline */
+.nav-links a:hover {
+    color: #ffcc00; /* Matches your button color */
+    text-decoration: underline;
+    transition: 0.3s; /* Makes the color change smooth instead of instant */
+}
+
+/* Make the button grow slightly and change color when hovered */
+.cta-button:hover {
+    background-color: #e6b800; /* A slightly darker gold */
+    transform: scale(1.05); /* Makes the button 5% larger */
+    transition: 0.2s;
+}
+
+/* This makes the button look like it's being clicked */
+.cta-button:active {
+    transform: scale(0.98);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+    background-color: white;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
