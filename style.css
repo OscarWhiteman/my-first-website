@@ -137,6 +137,42 @@ p {
     text-decoration: underline;
 }
 
+/* -- About --*/
+.about {
+    background-color: #f0f4ff;
+    padding: 60px 10%;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2b5a91;
+    margin-bottom: 16px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #2b5a91;
+}
+
 /* ── Responsive (Mobile) ── */
 @media (max-width: 768px) {
     .navbar {
@@ -162,5 +198,9 @@ p {
 
     .feature-card {
         width: 90%;
+    }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
     }
 }
